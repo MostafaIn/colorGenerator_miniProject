@@ -4,7 +4,7 @@
 
 ##Demo
 
-[color generator App]()
+[color generator App](https://mostafain.github.io/colorGenerator_miniProject/colorGeneratorIndex.html)
 
 ## Screenshot
 
@@ -25,4 +25,4 @@ Project is: finished_,
 
 Created by [mostafa](https://github.mostafaIn.com) 
 
-![feel free to contact me!](mostafa.hazareh@integrify.io)
+feel free to contact me @![](mostafa.hazareh@integrify.io)
