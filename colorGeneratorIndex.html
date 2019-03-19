@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <title>color generator</title>
+    <style>
+        .container{
+            text-align: center;
+        }
+        div.colorBox{
+            border: none;
+            border-radius: 20px;
+            margin:10px auto;
+            width: 50%;;
+            height: auto;
+            padding: 20px;
+            text-align: center;
+            background-color: white;
+            font-size: calc(1vw + 8px);
+        }
+        div.colorBox i{
+            float:right;
+            color: white;
+            border:none;
+        }
+
+        div.control{
+            border: 2px solid black;
+            border-radius: 20px;
+            background-color: aliceblue;
+            margin: auto;
+            padding: 20px;
+            width: 25%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+        div.control h3{
+            font-size: calc(1.8vw + 10px);
+        }
+
+        div.control input{
+            padding: 1vw;
+            background-color: aliceblue;
+            border: none;
+            border-bottom: 2px solid black;
+            text-align: center;
+            font-size: calc(.8vw + 5px);
+        }
+        div.control button.genBtn{
+            margin-top: 10px;
+            padding: 1vw;
+            border-radius: 10px;
+            font-size: calc(.8vw + 8px);
+            }
+
+    </style>
+</head>
+
+<body>
+    <div class="control">
+        <h3>Hexadecimal Color Generator</h3>
+        <input type="number" placeholder="how many..." required>
+        <button class="genBtn" onClick="colorGenerator()">GENERATE</button>
+    </div>
+    <main class="container">
+
+    </main>
+    <script src="/colorGenScript.js"></script>
+</body>
+
+</html>
