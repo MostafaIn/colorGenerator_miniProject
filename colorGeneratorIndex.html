@@ -9,6 +9,17 @@
         crossorigin="anonymous">
     <title>color generator</title>
     <style>
+        body{
+            background-color: #eee;
+            text-align: center;
+        }
+        .wrapper{
+            background-color: white;
+            margin: 30px auto;
+            padding: 20px;
+            width: 70%;
+            min-height: 600px;
+        }
         .container{
             text-align: center;
         }
@@ -17,7 +28,6 @@
             border-radius: 20px;
             margin:10px auto;
             width: 50%;;
-            height: auto;
             padding: 20px;
             text-align: center;
             background-color: white;
@@ -26,7 +36,7 @@
         div.colorBox i{
             float:right;
             color: white;
-            border:none;
+            cursor: pointer;
         }
 
         div.control{
@@ -35,7 +45,7 @@
             background-color: #c1def7;
             margin: auto;
             padding: 20px;
-            width: 25%;
+            width: 35%;
             text-align: center;
             display: flex;
             flex-direction: column;
@@ -50,27 +60,30 @@
             border: none;
             border-bottom: 2px solid black;
             text-align: center;
-            font-size: calc(.8vw + 5px);
+            font-size: calc(1.5vw + 5px);
         }
         div.control button.genBtn{
             margin-top: 10px;
             padding: 1vw;
             border-radius: 10px;
             font-size: calc(.8vw + 8px);
-            }
+            cursor: pointer;
+        }
 
     </style>
 </head>
 
 <body>
-    <div class="control">
-        <h3>Hexadecimal Color Generator</h3>
-        <input type="number" placeholder="how many..." required>
-        <button class="genBtn" onClick="colorGenerator()">GENERATE</button>
-    </div>
-    <main class="container">
+    <div class="wrapper">
+        <div class="control">
+            <h3>Hexadecimal Color Generator</h3>
+            <input type="number" placeholder="how many..." required>
+            <button class="genBtn" onClick="colorGenerator()">GENERATE</button>
+        </div>
+        <main class="container">
 
-    </main>
+        </main>
+    </div>
     <script src="colorGenScript.js"></script>
 </body>
 

@@ -2,9 +2,16 @@ const container = document.querySelector('.container');
 const displayBtn = document.querySelector('button');
 const inputNo = document.querySelector('input');
 
+inputNo.addEventListener('keyup', function (e) {
+    if (e.keyCode === 13) {
+        colorGenerator();
+    }
+    e.preventDefault();
+});
 
 
 function colorGenerator() {
+
     container.innerHTML = " ";
     for (let i = 0; i < inputNo.value; i++) {
         let r = Math.floor(Math.random() * 256).toString(16).toUpperCase();
@@ -26,7 +33,7 @@ function colorGenerator() {
         container.appendChild(colorBox);
         colorBox.appendChild(copyColor);
 
-        // const colorCode = document.createElement('h4');
+
         copyColor.addEventListener('click', function () {
             try {
 
