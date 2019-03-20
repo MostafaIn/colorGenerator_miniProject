@@ -25,4 +25,4 @@ Project is: finished_,
 
 Created by [mostafa](https://github.mostafaIn.com) 
 
-feel free to contact me @![](mostafa.hazareh@integrify.io)
+feel free to contact me![=>](mostafa.hazareh@integrify.io)
