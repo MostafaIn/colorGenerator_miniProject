@@ -8,7 +8,7 @@
 
 ## Screenshot
 
-![Example screenshot](colorGenerator_screenshot.png)
+![Example screenshot](colorGenerator_Screenshot.png)
 
 ## Technologies
 
